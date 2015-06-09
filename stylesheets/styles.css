@@ -1,0 +1,107 @@
+.dev {
+  background-color: lightblue;
+}
+
+body{
+  margin: 0px;
+  background-image: url(../images/pub.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+h1{
+  padding: 20px;
+  color: white;
+  font-family: 'Meddon', cursive;
+  /*font-family: 'Almendra', serif;*/
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 2px 3px 2px black;
+
+}
+
+div {
+  bottom: 0;
+  position: absolute;
+  display: inline-block;
+  justify-content:center;
+  align-items:center;
+  overflow: visible;
+}
+
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%;
+  z-index: 1;
+}
+
+p {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20%;
+  position: relative;
+  text-align: center;
+}
+svg {
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.container {
+  height: 90%;
+  width: 75%;
+  overflow: auto;
+}
+
+.words {
+  width: 420px;
+  height: 320px;
+  position: relative;
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+  display: none;
+  overflow: visible;
+}
+
+
+#poem {
+  background-image: url(../images/speech-bubble.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  /*display: none;*/
+}
+
+#poem > p{
+  font-family: 'Almendra', cursive;
+  font-size: 25px;
+  color: black;
+}
+
+#greeting, #instruction {
+  color: white;
+  font-family: 'Satisfy', serif;
+  margin: 0 auto;
+  text-shadow: 1px 2px 2px black;
+}
+
+#greeting {
+  font-size: 43px;
+}
+
+#instruction {
+  font-size: 30px;
+  padding-top: 15px;
+  display: none;
+}
+
+#shakespeare{
+  width: 75%;
+}

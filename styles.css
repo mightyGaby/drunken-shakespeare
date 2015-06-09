@@ -1,0 +1,43 @@
+/*header{
+  background-image: url(/images/header.jpg);
+  height: 500px;
+  font-size: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}*/
+body{
+  margin: 0px;
+}
+
+h1{
+  color: white;
+  font-family: 'Meddon', cursive;
+  padding: 20px;
+
+
+}
+
+.main {
+  background-image: url(images/background.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  float: none;
+
+
+}
+
+#poem {
+  background-size: 350px;
+  /*font-family: 'Meddon', cursive;*/
+  font-family: 'Almendra Display', cursive;
+  font-size: 25px;
+  width: 250px;
+  height: 200px;
+  color: black;
+  float: right;
+  margin-top: 75px;
+  margin-right: 200px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
